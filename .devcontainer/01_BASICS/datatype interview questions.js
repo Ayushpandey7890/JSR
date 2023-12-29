@@ -5,7 +5,7 @@
 
 const score = 100
 
-const scoreValue = 200
+const scoreValue = 100.5
 
 
 
@@ -14,7 +14,7 @@ const issLoggedIn = false
 
 const outsideTemp = null
 
-	@@ -12,18 +12,24 @@ let userEmail;
+let userEmail;
 
 const id = Symbol('123')
 
@@ -70,4 +70,5 @@ const myFunction = function(){
 
 
 
-console.log(typeof myFunction); // typeof operator documentation very important for interview 
+console.log(typeof (myFunction)); 
+//  typeof operator documentation very important for interview 
