@@ -17,3 +17,6 @@ accountPassword = "33334"
 console.log(accountId);
 
 console.table([accountCity,accountEmail,accountId,accountPassword,accountState])
+
+let a = love;
+console.log(a);
